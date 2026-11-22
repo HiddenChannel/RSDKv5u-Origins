@@ -1,5 +1,8 @@
 #include "RSDK/Core/RetroEngine.hpp"
+
+#if RETRO_USERCORE_STEAM
 #include "steam_api.h"
+#endif
 
 // ====================
 // API Cores
